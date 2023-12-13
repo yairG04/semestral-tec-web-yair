@@ -1,0 +1,134 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0; /* Color de fondo */
+}
+
+header {
+    background-color: #3498db; /* Color del encabezado */
+    padding: 20px;
+    text-align: center;
+    color: #fff; /* Color del texto del encabezado */
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #2ecc71; /* Color del fondo de navegación */
+    padding: 10px;
+}
+
+nav a {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+/* Agregar estilos para el enlace "Volver al inicio" */
+a#volver-al-inicio {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+a#volver-al-inicio:hover {
+    background-color: #2980b9;
+}
+
+/* Estilos para el botón */
+a.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+a.boton:hover {
+    background-color: #2980b9;
+}
+nav a:hover {
+    background-color: #2980b9;
+}
+
+nav a.active {
+    font-weight: bold;
+    color: red; /* Puedes ajustar el color según tu preferencia */
+}
+
+section {
+    padding: 20px;
+}
+
+/* Estilos para los equipos */
+section > div {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+section > div:hover {
+    transform: scale(1.02);
+}
+
+section h2 {
+    color: #3498db;
+}
+
+section p {
+    color: #333;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Agregar estilos específicos para cada provincia */
+#panama-metro { background-color: #e74c3c; }
+#colon { background-color: #f39c12; }
+#panama-oeste { background-color: #9b59b6; }
+#cocle { background-color: #3498db; }
+#herrera { background-color: #2ecc71; }
+#los-santos { background-color: #e74c3c; }
+#chiriqui { background-color: #f39c12; }
+#bocas-del-toro { background-color: #9b59b6; }
+#panama-este { background-color: #3498db; }
+#chiriqui-occidente { background-color: #2ecc71; }
+#veraguas { background-color: #e74c3c; }
+#darien { background-color: #f39c12; }
+
+/* Estilos para los enlaces */
+a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #2980b9;
+}

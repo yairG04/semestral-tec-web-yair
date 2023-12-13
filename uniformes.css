@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #1a237e;
+}
+
+.equipo {
+    margin-bottom: 30px;
+}
+
+.equipo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.nombre-equipo {
+    margin-top: 10px;
+    color: #424242;
+}
